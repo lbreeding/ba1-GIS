@@ -1,0 +1,53 @@
+        
+       === SMALL-SCALE (SS)
+        
+        GHCN P:  max and min lat an lon of 73 P stations
+        
+           37.3711   41.5683
+        -121.4169 -117.0675
+        
+        
+        GHCN T: max and min lat and lon of 32 T stations
+        
+           37.5667   41.4900
+        -121.4169 -118.3047
+        
+        
+        Chrons: max and miin lat and lon of 37 tree-ring chronologies
+        
+           37.3100   39.5700
+        -120.5500 -119.1100
+        
+        
+        
+         Boundaries that will work for SS
+      
+	      37.29 	41.58
+	      -121.43  -117.00
+	      
+	      
+	 
+====================================	 
+ `	LARGE-SCALE (LS)
+        
+         So that the encloses 1) the Huc's for both Truckee and Carson Basins, and 2) the 20 elevatio points for climate interpolation, and 3) the four Franco Biondi tree-ring sites to be used for  UCOWR work. 
+        
+        LS Map boundaries 
+        
+         38.34    40.70
+        -120.48   -117.90
+        
+        
+	 
+====================================	 
+ `	MEDIUM-SCALE (MS)
+ 
+        Goal is to cover completely the tree-ring site domain and the TC River Basin. This is zoomed in from  SSmap01, which had to cover the climate stations also.
+        
+        MS Map boundaries
+   
+        
+        40.4743 	120.4213
+        37.7017 	117.509
+	      
+	      
