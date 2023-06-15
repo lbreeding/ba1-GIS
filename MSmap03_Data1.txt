@@ -1,0 +1,24 @@
+Table2-SSR2 - Statistics of screened single site reconstruction (SSR) models
+
+  N1  N2    Site    Goc Endc   Model    Sign   R2a       pF    REcv   REa   REb  Refit   Gor  Endr Reject
+   1   1   ca677   1939 1999   00100   00P00  0.57  1.5E-12    0.56  0.47  0.49  FALSE  1685  2010  FALSE
+   2   2     LEM   1939 1999   00100   00P00  0.32  1.3E-06    0.31  0.26  0.06  FALSE  1685  2020  FALSE
+   3   3   ca632   1939 1999   00100   00P00  0.08    0.013    0.08  0.03  0.17   TRUE  1685  1999  FALSE
+   4   5     CPR   1939 1999   00120   00PP0  0.12   0.0094    0.03  0.16  0.00  FALSE  1685  2019  FALSE
+   5   6   ca691   1939 1999   00210   00PP0  0.19  0.00072    0.19  0.21  0.06  FALSE  1685  2014  FALSE
+   6   7   ca692   1939 1999   00010   000P0  0.36  2.3E-07    0.33  0.41  0.07  FALSE  1685  2014  FALSE
+   7   9     IVP   1939 1999   00100   00P00  0.05    0.043    0.02  0.05  0.08   TRUE  1685  2000  FALSE
+   8  12     SSP   1939 1999   00100   00P00  0.52  3.3E-11    0.52  0.57  0.41   TRUE  1685  1999  FALSE
+   9  13     GMH   1939 1998   00201   00N0N  0.13   0.0068    0.14  0.18  0.04  FALSE  1685  1998  FALSE
+  10  15    BLSP   1939 1998   00001   0000N  0.06    0.035    0.04  0.02  0.13  FALSE  1685  1998  FALSE
+  11  18    DGSa   1939 1999   00100   00P00  0.20  0.00016    0.18  0.12  0.36  FALSE  1685  2001  FALSE
+  12  19   ca678   1939 1999   00100   00P00  0.37  1.3E-07    0.37  0.36  0.39  FALSE  1685  2010  FALSE
+  13  21    KAIM   1939 1999   00100   00P00  0.11   0.0055    0.09  0.07  0.20  FALSE  1685  2011  FALSE
+  14  22   LEM.e   1939 1999   00100   00P00  0.29  4.8E-06    0.28  0.24  0.04  FALSE  1685  2020  FALSE
+  15  32   LTV.l   1939 1999   00100   00P00  0.08    0.014    0.07  0.09  0.09  FALSE  1685  2020  FALSE
+  16  36   LTV.b   1939 1999   43102   NPP0P  0.21   0.0015    0.15  0.17  0.23  FALSE  1687  2017  FALSE
+
+
+This table applies to chronologies passing screening for hydrologic signal
+Chronologies: Not prewhitened
+See TrishOutputDescribeMLR1-PCA.pdf for more
