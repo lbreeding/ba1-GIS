@@ -24,7 +24,7 @@ chart <- ggplot(data_long, aes(x = as.factor(Category), y = Value, fill = Key)) 
     labels = c("R²ₐ", expression(RE[CV]), "R²ₑ", "NSE")
   ) +
   scale_x_discrete(labels = c("1", "2", "3", "4", "5", "6")) +
-  scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, 0.1)) +
+  scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, 0.1), expand = c(0, 0)) +
   labs(fill = NULL) +  # Remove legend title
   theme_minimal() +
   theme(
@@ -35,14 +35,10 @@ chart <- ggplot(data_long, aes(x = as.factor(Category), y = Value, fill = Key)) 
     panel.grid = element_blank()
   )
 
-# Adjust the legend spacing
-chart + guides(fill = guide_legend(nrow = 4, byrow = TRUE, keyheight = unit(.7, "cm"))) +
-  theme(legend.text = element_text(size = 13))
-
 # Save the plot as a PNG file
-ggsave("bar_chart.png", width = 8, height = 6, dpi = 300, bg = "white")
-
-
+ggsave("bar_chart1.png", plot = chart + guides(fill = guide_legend(nrow = 4, byrow = TRUE, keyheight = unit(.7, "cm"))) +
+         theme(legend.text = element_text(size = 13)), 
+       width = 8, height = 6, dpi = 300, bg = "white")
 
 
 
