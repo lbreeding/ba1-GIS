@@ -18,7 +18,7 @@ chart <- ggplot(data_long, aes(x = as.factor(Category), y = Value, fill = Key)) 
   labs(title = "", x = "Length of Running Mean (yr)", y = "% of Normal Runoff") +
   scale_fill_manual(
     values = c("Value1" = "blue2", "Value2" = "cyan3", "Value3" = "red2", "Value4" = "orange2"),
-    labels = c("1939-1999", "1687-1999", "1687-1999, deltaT=+6degC", "1687-1999, deltaSWC=-50%")
+    labels = c("1939-1999", "1687-1999", "1687-1999, ΔT=+6°C", "1687-1999, ΔSWC=-50%")
   ) +
   scale_x_discrete(labels = c("2", "5", "10", "20")) +
   scale_y_continuous(limits = c(0, 100), breaks = seq(0, 100, 10), expand = c(0,0)) +
@@ -36,3 +36,4 @@ chart <- ggplot(data_long, aes(x = as.factor(Category), y = Value, fill = Key)) 
 ggsave("Bar03.png", plot = chart + guides(fill = guide_legend(nrow = 4, byrow = TRUE, keyheight = unit(.7, "cm"))) +
          theme(legend.text = element_text(size = 13)), 
        width = 8, height = 6, dpi = 300, bg = "white")
+
