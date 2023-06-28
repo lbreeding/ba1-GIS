@@ -45,7 +45,7 @@ chart <- ggplot(data_long, aes(x = as.factor(Category), y = Value, fill = Key)) 
   )
 
 # Save the plot as a PNG file
-ggsave("bar_chart05.png", plot = chart + guides(fill = guide_legend(nrow = 4, byrow = TRUE, keyheight = unit(.7, "cm"))) +
+ggsave("Bar02.png", plot = chart + guides(fill = guide_legend(nrow = 4, byrow = TRUE, keyheight = unit(.7, "cm"))) +
          theme(legend.text = element_text(size = 13)), 
        width = 8, height = 6, dpi = 300, bg = "white")
 
