@@ -1,9 +1,9 @@
+# Create a data frame with the given data
 data <- data.frame(
   Category = 1:4,
-  Value1 = c(15.935, 60.629, 70.573, 78.404),
-  Value2 = c(27.441, 57.617, 69.072, 78.518),
-  Value3 = c(18.414, 52.808, 64.429, 72.531),
-  Value4 = c(33.867, 64.223, 75.221, 84.231)
+  Value1 = c(27.441, 57.617, 69.072, 78.518),
+  Value2 = c(18.414, 52.808, 64.429, 72.531),
+  Value3 = c(33.867, 64.223, 75.221, 84.231)
 )
 
 # Load the necessary library
@@ -17,8 +17,8 @@ chart <- ggplot(data_long, aes(x = as.factor(Category), y = Value, fill = Key)) 
   geom_bar(stat = "identity", position = position_dodge(width = 0.7), width = 0.6, color = "black") +
   labs(title = "", x = "Length of Running Mean (yr)", y = "% of Normal Runoff") +
   scale_fill_manual(
-    values = c("Value1" = "blue2", "Value2" = "cyan3", "Value3" = "red2", "Value4" = "orange2"),
-    labels = c("1939-1999", "1687-1999", "1687-1999, ΔT=+6°C", "1687-1999, ΔSWC=-50%")
+    values = c("Value1" = "dodgerblue3", "Value2" = "coral2", "Value3" = "goldenrod2"),
+    labels = c("No Change", "ΔT = +6°C", "ΔSWC = -50%")
   ) +
   scale_x_discrete(labels = c("2", "5", "10", "20")) +
   scale_y_continuous(limits = c(0, 100), breaks = seq(0, 100, 10), expand = c(0,0)) +

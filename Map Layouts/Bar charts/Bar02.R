@@ -23,8 +23,11 @@ chart <- ggplot(data_long, aes(x = as.factor(Category), y = Value, fill = Key)) 
                linetype = "dashed", color = "black") +
   geom_segment(aes(x = 2.6, xend = 3.4, y = 69.634, yend = 69.634),
                linetype = "dashed", color = "black") +
-  geom_text(aes(x = 1, y = 40, label = "Observed"),
-            color = "black", size = 3, vjust = -0.5) +
+  geom_text(aes(x = 1, y = 55, label = "Observed"),
+            color = "black", size = 4, vjust = -0.5) +
+  
+
+  annotate("segment", x = 1, xend = 1.15, y = 55, yend = 38.7, color = "black", arrow = arrow(length = unit(0.5, "cm")), angle = 45) +
   
   
   labs(title = "", x = "Running Mean (yr)", y = "% of Normal") +
