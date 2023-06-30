@@ -1,0 +1,25 @@
+Table2-SSR2 - Statistics of screened single site reconstruction (SSR) models
+
+  N1  N2    Site    Goc Endc   Model    Sign   R2a       pF    REcv   REa   REb  Refit   Gor  Endr Reject
+   1   1   ca677   1939 1999   00100   00P00  0.50  1.5E-10    0.50  0.41  0.42  FALSE  1685  2010  FALSE
+   2   2     LEM   1939 1999   00100   00P00  0.28  7.6E-06    0.28  0.27  0.06  FALSE  1685  2020  FALSE
+   3   3   ca632   1939 1999   00100   00P00  0.11   0.0053    0.11  0.03  0.19   TRUE  1685  1999  FALSE
+   4   5     CPR   1939 1999   00100   00P00  0.07    0.023    0.05  0.09  0.07   TRUE  1685  2020  FALSE
+   5   6   ca691   1939 1999   00010   000P0  0.14   0.0018    0.14  0.18  0.08  FALSE  1685  2014  FALSE
+   6   7   ca692   1939 1999   20010   P00N0  0.38    4E-07    0.36  0.34  0.03  FALSE  1687  2014  FALSE
+   7  12     SSP   1939 1999   20100   P0P00  0.47  4.1E-09    0.48  0.54  0.40   TRUE  1687  1999  FALSE
+   8  13     GMH   1939 1998   00102   00N0N  0.19  0.00083    0.21  0.25  0.12  FALSE  1685  1998  FALSE
+   9  18    DGSa   1939 1999   00100   00P00  0.24  3.3E-05    0.22  0.15  0.37  FALSE  1685  2001  FALSE
+  10  19   ca678   1939 1999   00100   00P00  0.36  2.4E-07    0.37  0.36  0.37  FALSE  1685  2010  FALSE
+  11  21    KAIM   1939 1999   00100   00P00  0.19   0.0003    0.18  0.06  0.32  FALSE  1685  2011  FALSE
+  12  22   LEM.e   1939 1999   00100   00P00  0.24  3.9E-05    0.24  0.25  0.02  FALSE  1685  2020  FALSE
+  13  28   LEM.l   1939 1999   00100   00P00  0.39  4.9E-08    0.36  0.35  0.10  FALSE  1685  2020  FALSE
+  14  29   CPR.l   1939 1999   20100   P0P00  0.19  0.00078    0.22  0.24  0.14  FALSE  1687  2020  FALSE
+  15  32   LTV.l   1939 1999   00100   00P00  0.12   0.0042    0.10  0.07  0.20  FALSE  1685  2020  FALSE
+  16  33   LUR.l   1939 1999   00210   00PP0  0.17    0.002    0.17  0.20  0.06  FALSE  1685  2019  FALSE
+  17  36   LTV.b   1939 1999   00100   00P00  0.14   0.0016    0.13  0.12  0.19  FALSE  1685  2019  FALSE
+
+
+This table applies to chronologies passing screening for hydrologic signal
+Chronologies: Not prewhitened
+See TrishOutputDescribeMLR1-PCA.pdf for more

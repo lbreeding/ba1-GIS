@@ -1,0 +1,20 @@
+Table2-SSR2 - Statistics of screened single site reconstruction (SSR) models
+
+  N1  N2    Site    Goc Endc   Model    Sign   R2a       pF    REcv   REa   REb  Refit   Gor  Endr Reject
+   1   5     CPR   1939 1999   00010   000P0  0.06    0.036    0.06  0.02  0.09  FALSE  1685  2019  FALSE
+   2   6   ca691   1939 1999   00010   000P0  0.17  0.00065    0.17  0.09  0.21  FALSE  1685  2014  FALSE
+   3  11     LTV   1939 1999   00100   00P00  0.07    0.019    0.07  0.08  0.03   TRUE  1685  2020  FALSE
+   4  12     SSP   1939 1999   01200   0NP00  0.07     0.05    0.06  0.11  0.02   TRUE  1686  1999  FALSE
+   5  13     GMH   1939 1999   20010   P00P0  0.13   0.0056    0.10  0.05  0.11   TRUE  1687  1999  FALSE
+   6  18    DGSa   1939 1999   00100   00P00  0.05    0.044    0.06  0.07  0.07  FALSE  1685  2001  FALSE
+   7  22   LEM.e   1939 1999   01020   0N0P0  0.07    0.047    0.06  0.12  0.04  FALSE  1686  2019  FALSE
+   8  26   LTV.e   1939 1999   00100   00P00  0.05    0.047    0.04  0.03  0.03   TRUE  1685  2020  FALSE
+   9  29   CPR.l   1939 1999   02013   0P0NP  0.14   0.0089    0.11  0.09  0.11  FALSE  1686  2018  FALSE
+  10  32   LTV.l   1939 1999   00120   00PP0  0.11    0.013    0.10  0.16  0.01  FALSE  1685  2019  FALSE
+  11  35   CPR.b   1939 1999   00100   00N00  0.23  5.4E-05    0.21  0.26  0.24  FALSE  1685  2020  FALSE
+  12  37   LUR.b   1939 1999   00120   00NP0  0.22  0.00032    0.18  0.29  0.18   TRUE  1685  2019  FALSE
+
+
+This table applies to chronologies passing screening for hydrologic signal
+Chronologies: Not prewhitened
+See TrishOutputDescribeMLR1-PCA.pdf for more
