@@ -21,7 +21,7 @@ chart <- ggplot(data_long, aes(x = as.factor(Category), y = Value, fill = Key)) 
   labs(title = "", x = "Number of Predictors", y = "Accuracy/Skill") +
   scale_fill_manual(
     values = c("Value1" = "blue2", "Value2" = "red2", "Value3" = "orange2", "Value4" = "purple3"),
-    labels = c("R²ₐ", expression(RE[CV]), "R²ₑ", "NSE")
+    labels = c("Rₐ²", expression(RE[CV]), "r²ₑ", "NSE")
   ) +
   scale_x_discrete(labels = c("1", "2", "3", "4", "5", "6")) +
   scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, 0.1), expand = c(0, 0)) +
@@ -32,7 +32,9 @@ chart <- ggplot(data_long, aes(x = as.factor(Category), y = Value, fill = Key)) 
     panel.background = element_rect(fill = "white"),
     axis.text.x = element_text(size = 9, face = "plain"),
     axis.ticks = element_line(color = "black", size = .5),
-    panel.grid = element_blank()
+    panel.grid = element_blank(),
+    legend.text = element_text(hjust = 0)  # Left justify legend text
+    
   )
 
 # Save the plot as a PNG file
