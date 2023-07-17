@@ -1,0 +1,8 @@
+Table8-CoefficientsMSR  -  Coefficients of MSR regression model
+
+=========================================
+(Intercept) 	126.25745   
+PC1         	-0.79521741 
+=========================================
+
+See TrishOutputDescribeMLR1-PCA.pdf for more
